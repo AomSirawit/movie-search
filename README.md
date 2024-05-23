@@ -47,7 +47,7 @@ This project is a movie search website project using vue 3 framework with tailwi
 init repository in your directory folder
 ```bash
 git init
-git clone https://github.com/AomSirawit/vue3-movie-search.git
+git clone https://github.com/AomSirawit/movie-search.git
 ```
 
 # How to Run
