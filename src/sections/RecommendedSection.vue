@@ -36,7 +36,7 @@ export default {
         this.loading = true;
         console.log("Fetching movies...");
 
-        const response = await axios.get("http://www.omdbapi.com/", {
+        const response = await axios.get("https://www.omdbapi.com/", {
           params: {
             apikey: "df9bdcb2",
             s: "Marvel",
@@ -50,7 +50,7 @@ export default {
           const movies = response.data.Search;
           // Fetch detailed information for each movie
           const detailsPromises = movies.map((movie) =>
-            axios.get("http://www.omdbapi.com/", {
+            axios.get("https://www.omdbapi.com/", {
               params: {
                 apikey: "df9bdcb2",
                 i: movie.imdbID,
