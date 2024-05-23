@@ -11,7 +11,6 @@ This project is a movie search website project using vue 3 framework with tailwi
 # Structure Project
 
 ```
-vue3-movie-search
 ├─ movie-search
 │  ├─ .vscode
 │  │  └─ extensions.json
